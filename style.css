@@ -2,3 +2,13 @@
     margin: 0;
     padding: 0;
 }
+.cabecalho{
+    padding: 15px 25px;
+}
+.cartão {
+    width: 260px;
+    height: 200px;
+}
+.cartão-imagem{
+    width: 100%;
+}
