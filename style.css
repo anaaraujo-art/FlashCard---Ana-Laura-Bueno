@@ -7,6 +7,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: aqua;
 }
 .cartão {
     width: 260px;
@@ -22,4 +23,11 @@ body{
 }
 main{
     flex: 1;
+}
+.cabecalho-lin{
+    color: aquamarine;
+    text-decoration: none;
+}
+h1{
+    color: blue;
 }
