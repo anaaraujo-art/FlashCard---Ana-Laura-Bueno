@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: aqua;
+    background-color: rgb(0, 183, 255);
 }
 .cartão {
     width: 260px;
@@ -20,14 +20,27 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: rgb(125, 169, 250);
 }
 main{
     flex: 1;
 }
-.cabecalho-lin{
-    color: aquamarine;
+.cabecalho-link{
+    color: rgb(127, 219, 255);
     text-decoration: none;
 }
 h1{
-    color: blue;
+    color: rgb(78, 78, 255);
+}
+footer{
+    background-color: rgb(78, 119, 255);
+    padding: 15px 25px;
+    color: rgb(0, 0, 0);
+}
+.cartão-interno{
+    position: relative;
+}
+.cartão-frente, .cartão-verso{
+    position: absolute;
+    border-radius: 12px;
 }
