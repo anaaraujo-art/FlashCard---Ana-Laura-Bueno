@@ -39,8 +39,18 @@ footer{
 }
 .cartão-interno{
     position: relative;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
 }
 .cartão-frente, .cartão-verso{
     position: absolute;
-    border-radius: 12px;
+    border-radius: 12px; 
+    box-shadow: 0 6px 12px rgb(red, green, blue);
+    backface-visibility: hidden;
+{
+. cartao-verso{  
+    transform: rotatey(180deg);
 }
+    
+}  
+
