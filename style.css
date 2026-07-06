@@ -9,11 +9,11 @@
     align-items: center;
     background-color: rgb(0, 183, 255);
 }
-.cartão {
+.cartao {
     width: 260px;
     height: 200px;
 }
-.cartão-imagem{
+.cartao-imagem{
     width: 100%;
 }
 body{
@@ -32,7 +32,7 @@ main{
     color: rgb(127, 219, 255);
     text-decoration: none;
 }
-h1{  
+h1  
     color: rgb(78, 78, 255){ 
     font-size: 24px
 }
