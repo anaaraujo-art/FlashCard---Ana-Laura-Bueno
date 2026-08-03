@@ -32,27 +32,27 @@ main{
     color: rgb(127, 219, 255);
     text-decoration: none;
 }
-h1  
-    color: rgb(78, 78, 255){ 
-    font-size: 24px
+h1 { 
+    color: rgb(78, 78, 255);
+    font-size: 24px;
 }
 footer{
     background-color: rgb(78, 119, 255);
     padding: 15px 25px;
     color: rgb(0, 0, 0);
 }
-.cartão-interno{
+.cartao-interno{
     position: relative;
     transition: transform 0.8s;
     transform-style: preserve-3d;
 }
-.cartão-frente, .cartão-verso{
+.cartaao-frente, .cartao-verso{
     position: absolute;
     border-radius: 12px; 
     box-shadow: 0 6px 12px rgb(red, green, blue);
     backface-visibility: hidden;
 }
-. cartao-verso{  
+.cartao-verso{  
     transform: rotatey(180deg);
 }
       
