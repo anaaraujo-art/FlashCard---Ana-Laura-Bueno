@@ -55,5 +55,8 @@ footer{
 .cartao-verso{  
     transform: rotatey(180deg);
 }
+.cartao:houver .cartao-interno{
+    transform: rotateY('180deg');
+}
       
 
