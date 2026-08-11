@@ -1,62 +1,75 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.cabecalho{
+
+.cabecalho {
     padding: 15px 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: rgb(0, 183, 255);
 }
+
 .cartao {
     width: 260px;
     height: 200px;
 }
-.cartao-imagem{
+
+.cartao-imagem {
     width: 100%;
 }
-body{
+
+body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     background-color: rgb(125, 169, 250);
 }
-main{
+
+main {
     flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.cabecalho-link{
+
+.cabecalho-link {
     color: rgb(127, 219, 255);
     text-decoration: none;
 }
-h1 { 
+
+h1 {
     color: rgb(78, 78, 255);
     font-size: 24px;
 }
-footer{
+
+footer {
     background-color: rgb(78, 119, 255);
     padding: 15px 25px;
     color: rgb(0, 0, 0);
 }
-.cartao-interno{
-    position: relative;
+
+.cartao-interno {
+    position: abolute;
     transition: transform 0.8s;
     transform-style: preserve-3d;
 }
-.cartaao-frente, .cartao-verso{
-    position: absolute;
-    border-radius: 12px; 
-    box-shadow: 0 6px 12px rgb(red, green, blue);
-    backface-visibility: hidden;
-}
-.cartao-verso{  
-    transform: rotatey(180deg);
-}
-.cartao:houver .cartao-interno{
-    transform: rotateY('180deg');
-}
-      
 
+.cartao-frente,
+.cartao-verso {
+    position: absolute;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgb(81, 148, 235);
+    backface-visibility: hidden;
+
+}
+
+.cartao-verso {
+    transform: rotateY(180deg);
+}
+
+.cartao:hover .cartao-interno {
+    transform: rotateY(180deg);
+
+}
